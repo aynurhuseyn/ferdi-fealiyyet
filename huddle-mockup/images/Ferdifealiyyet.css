@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+.banner{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    transform: translateY(6.6em);
+}
+header h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.6em;
+    color: hsl(192, 100%, 9%);
+}
+ 
+header p{
+   font-size: 16px;
+   width: 50%;
+   color: hsl(192, 100%, 9%);
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 400;
+}
+.grid-nav{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+}
+.grid-main{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-evenly;
+    color: hsl(192, 100%, 9%); 
+}
+.grid-main h2 {
+    font-size: 4em;
+    margin: 0;
+}
+
+
+.grid-main h3 {
+   font-size: 2em;
+   font-weight: 700;
+}
+.item-align-vertical {
+    position: relative;
+     transform: translateY(4em);
+}
+p {
+    font-size: 14px;
+    width: 64%; 
+}
+.grid-redes{
+    display: grid;
+    grid-template-columns: 50px 50px 50px;
+    color: hsl(189, 41%, 97%);
+    font-size: 30px;
+}
+.grid-footer {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+     font-weight: 400;
+
+}
+.rounded {
+    border-radius:2em;
+}
+
+.rounded-sm {
+    border-radius:5px;
+}
+
+.border-pink-style {
+    display: inline-block;
+     border: 1px solid hsl(322, 100%, 66%)  ;
+     color:  hsl(322, 100%, 66%);
+     padding: 8px;
+     text-decoration: none;
+     text-align: center;
+}
+
+.shadow-sm {
+   box-shadow: 1px 1px 5px #f0f0f0;
+
+}
+
+.btn-pink-theme {
+     display: block;
+     width: 200px;
+     background: hsl(322, 100%, 66%);
+     color: #fff;
+     padding: 1em;
+     text-align: center;  
+}
+
+.btn-pink-theme-2 {
+    background: hsl(322, 100%, 66%);
+    color: #fff;
+    padding: 10px;
+    text-align: center; 
+}
+
+.align-center {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+
+
+.color-img {
+    background: #F6FBFF;
+}
+
+.img-responsive {
+    width: 100%;
+    height: auto;
+}
+.m-top-grid {
+    margin-top: 10em ;
+}
+.fix-img{
+    position: relative;
+    transform: translateY(10px);
+}
